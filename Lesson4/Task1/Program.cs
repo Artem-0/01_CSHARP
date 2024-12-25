@@ -1,7 +1,6 @@
 ﻿int[,] CreateMatrix(int rowCount, int columsCount)
 {
     int[,] matrix = new int[rowCount, columsCount];
-
     Random rnd = new Random();
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
@@ -23,7 +22,6 @@ void ShowMatrix(int[,] matrix)
         }
         Console.WriteLine();
     }
-
 }
 
 int[,] matrix = CreateMatrix(4, 5);
